@@ -16,6 +16,9 @@
                 </b-list-group-item>
             </b-list-group>
         </div>
+        <div>
+            <router-link to="/" class="btn btn-warning">Kembali</router-link>
+        </div>
     </div>
 </template>
 <script>

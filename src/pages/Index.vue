@@ -16,12 +16,7 @@
     <b-card-body>
       <b-card-group>
         <b-card-body v-for="row in resultQuery" :key="row.key">
-          <b-card
-            style="
-              border: none;
-              border-radius: 30px;
-              box-shadow: 0 3px 0 3px grey;
-            ">
+          <b-card>
             <b-card-title>
               <div class="float-left">
                 <small
@@ -42,9 +37,8 @@
                   <b-button pill variant="info">edit</b-button>
                 </router-link>
 
-                <button @click="deleteData(row.key)" id="actionic">
-                  <b-button pill variant="danger">Button</b-button>
-                </button>
+                <b-button @click="deleteData(row.key)" pill variant="danger">hapus</b-button>
+                
               </div>
             </b-card-title>
             <div class="float-left container text-justify">

@@ -5,7 +5,7 @@
         </h4>
         <div class="card-body">
             <!-- form add start-->
-            <form ref="form" @submit.stop.prevent="handleSubmit">
+            <form ref="form" @submit.stop.prevent="handleUpdate">
                 <b-form-group
                     label="Name"
                     label-for="name-input"
@@ -65,7 +65,7 @@
                         required></b-form-datepicker>
                 </b-form-group>
                 <b-form-group>
-                    <input type="submit" value="Submit" />
+                    <input type="submit" value="Update" />
                 </b-form-group>
             </form>
             <!-- form add end -->

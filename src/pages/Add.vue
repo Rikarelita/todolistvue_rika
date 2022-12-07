@@ -34,7 +34,7 @@
                 </b-form-group>
                 <b-form-group
                     label="Date"
-                    label-for="description-input"
+                    label-for="create_at-input"
                     invalid-feedback="created_at is required"
                     :state="create_atState">
                     <b-form-datepicker

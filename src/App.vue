@@ -57,12 +57,13 @@ export default {
   width: 175px;
   text-align: center;
 }
-#actionic {
+#actionic, #action {
   font-weight: bold;
   margin: 0.5rem 0 0;
   text-decoration: none;
   padding: 2px;
 }
+
 #actionic:hover {
   color: #0428ff;
 }
